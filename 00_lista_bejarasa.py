@@ -16,8 +16,16 @@ for honap in honapok:
     # 0 január
     # 1 február
 
-print()
+honap_index = 0
+for honap in honapok:
+    print(f"{honap_index} {honap}")
+    honap_index += 1
 
 # index felhasználása sorszámok megadásához:
     # 1. január
     # 2. február
+
+honap_index = 1
+for honap in honapok:
+    print(f"{honap_index}. {honap}")
+    honap_index += 1
